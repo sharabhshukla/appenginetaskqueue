@@ -1,6 +1,6 @@
 fastapi~=0.82.0
 google-cloud-tasks~=2.7
 uvicorn~=0.18.3
-pydantic~=1.10.2
+pydantic~=2.4.0
 loguru~=0.6.0
 redis~=4.3.4
