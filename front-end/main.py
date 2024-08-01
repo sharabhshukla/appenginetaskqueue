@@ -22,7 +22,7 @@ def root_msg():
     return Response(content='Ok', status_code=status.HTTP_200_OK)
 
 
-@app.post('/post_message_to_queue',
+@app.post('/post_job_message_to_queue',
           status_code=status.HTTP_200_OK,
           response_model=ResponseData)
 def post_msg_queue(message_to_post: UserData):
